@@ -1,0 +1,21 @@
+# Install the quickdraw library for easy dataset access
+!pip install quickdraw
+
+# Import necessary libraries
+import os
+import numpy as np
+import tensorflow as tf
+from tensorflow import keras
+from keras import layers
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
+from sklearn.svm import SVC
+from sklearn.metrics import accuracy_score, confusion_matrix
+import matplotlib.pyplot as plt
+import seaborn as sns
+import time
+
+# For downloading the dataset
+from quickdraw import QuickDrawData
+
+print("Libraries imported successfully.")
