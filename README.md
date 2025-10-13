@@ -9,18 +9,23 @@ QuickDraw Sketch Classification: A Comparison of Deep Learning and Traditional M
 This repository contains the code for classifying Google QuickDraw sketches using various machine learning and deep learning techniques. The project compares the performance, training time, and architectural complexity of models like Logistic Regression, Support Vector Machines (SVM), Custom Convolutional Neural Networks (CNNs), and several Transfer Learning architectures (MobileNet, VGG16, ResNet50, InceptionV3).
 
 Project Goal
+
 The primary objective is to replicate and extend classic findings in sketch recognition using a high-volume dataset of user-drawn images, specifically focusing on how deep learning (CNNs and Transfer Learning) stacks up against traditional methods.
 
 Getting Started
+
 Prerequisites
+
 To run the notebook locally or in a Colab environment, you will need the following Python libraries:
 
 pip install tensorflow numpy scikit-learn matplotlib seaborn pandas quickdraw
 
 How to Run
+
 The entire project is contained within the proj11.ipynb Jupyter Notebook.
 
-Google Colab (Recommended): The easiest way to run the project is by opening the proj11.ipynb file directly in Google Colab. Colab already provides the necessary GPU/TPU resources and a pre-configured environment.
+Google Colab (Recommended): 
+The easiest way to run the project is by opening the proj11.ipynb file directly in Google Colab. Colab already provides the necessary GPU/TPU resources and a pre-configured environment.
 
 Jupyter/Local: You can download the notebook and run it locally in a Jupyter environment after installing the dependencies listed above.
 
