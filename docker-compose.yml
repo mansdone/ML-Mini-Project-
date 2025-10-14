@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  jupyter:
+    build: .
+    container_name: quickdraw-classification
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./quickdraw_data:/app/quickdraw_data
+      - ./models:/app/models
+      - ./results:/app/results
+      - ./ML_Project.ipynb:/app/ML_Project.ipynb
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+    restart: unless-stopped
+    
+  # Optional: Add TensorBoard for monitoring
+  tensorboard:
+    image: tensorflow/tensorflow:latest
+    container_name: quickdraw-tensorboard
+    ports:
+      - "6006:6006"
+    volumes:
+      - ./logs:/logs
+    command: tensorboard --logdir=/logs --host=0.0.0.0
+    restart: unless-stopped
+
+# Usage:
+# Start: docker-compose up -d
+# Stop: docker-compose down
+# View logs: docker-compose logs -f
+# Access Jupyter: http://localhost:8888
+# Access TensorBoard: http://localhost:6006
+
