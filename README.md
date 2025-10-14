@@ -277,9 +277,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **scikit-learn** for classical ML algorithms
 - Inspired by research on sketch recognition and classification
 
-## 📧 Contact
+## 📧 Team 
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - your.email@example.com
+ Md.Jawwaad Sheriff (PES1UG23CS366)
+ Lakshya Mehta (PES1UG23CS324)
 
 Project Link: [https://github.com/yourusername/quickdraw-classification](https://github.com/yourusername/quickdraw-classification)
 
@@ -293,4 +294,5 @@ Project Link: [https://github.com/yourusername/quickdraw-classification](https:/
 2. Google QuickDraw Dataset Documentation
 3. TensorFlow Documentation
 4. scikit-learn Documentation
+
 
