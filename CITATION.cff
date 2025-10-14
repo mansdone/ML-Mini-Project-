@@ -1,11 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: "Your Last Name"
-    given-names: "Your First Name"
-    orcid: "https://orcid.org/0000-0000-0000-0000"
+  Md.Jawwaad Sheriff(PES1UG23CS366)
+  Lakshya Mehta(PES1UG23CS324)
 title: "QuickDraw Image Classification using CNN and Classical ML"
 version: 1.0.0
 date-released: 2025-10-14
 url: "https://github.com/yourusername/quickdraw-classification"
+
 
