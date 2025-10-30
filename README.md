@@ -283,7 +283,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
  
  Lakshya Mehta (PES1UG23CS324)
 
-Project Link: [https://github.com/yourusername/quickdraw-classification](https://github.com/yourusername/quickdraw-classification)
+
 
 ---
 
@@ -295,6 +295,7 @@ Project Link: [https://github.com/yourusername/quickdraw-classification](https:/
 2. Google QuickDraw Dataset Documentation
 3. TensorFlow Documentation
 4. scikit-learn Documentation
+
 
 
 
